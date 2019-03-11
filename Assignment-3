@@ -1,0 +1,17 @@
+package pkg1;
+
+public class Calculation2 extends Calculation1
+{
+	public static void main(String[] args) {
+		Calculation1 obj2=new Calculation1();
+		int sub1=obj2.sub(10,2);
+		int sum1=obj2.sum(sub1,2);
+		int sum2=obj2.sum(sum1,2);
+		int div1=obj2.div(sum2,2);
+		int result=obj2.mul(div1,2);
+	
+		System.out.println("Final Result for (((((10-2)+2)+2)/2)*2) ="+result);
+	}
+	
+
+}
