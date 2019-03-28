@@ -1,0 +1,21 @@
+package pkg_1;
+
+import java.util.Scanner;
+
+public class Print_Table {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Enter a number to get its table");
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		
+		int num ;
+		for(int i=1; i<=10; i++)
+		{
+			num=i*n;
+			System.out.println(i+"*"+n+ "="+num);
+		}
+	}
+
+}
